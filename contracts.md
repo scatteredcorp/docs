@@ -27,9 +27,9 @@ This contract must be signed by both players in order to create a new game.
 |   25  |  Player1 address  |
 |   25  |  Player2 address  |
 |   4   |   Player1 nonce   |
-|   64  |    Player1 sig    |
+|   65  |    Player1 sig    |
 |   4   |   Player2 nonce   |
-|   64  |    Player2 sig    |
+|   65  |    Player2 sig    |
 
 ## ThrowContract
 
@@ -45,7 +45,7 @@ This contract is broadcast each time a player plays a round
 |   32  |    Game hash    |
 |   1   |   Throw nonce   |
 |   4   |   Player nonce  |
-|   64  |    Signature    |
+|   65  |    Signature    |
 
 ## TransactionContract
 
@@ -61,6 +61,6 @@ This contract must be signed by both players in order to instantly exchange marb
 |   25  |  Player1 address  |
 |   25  |  Player2 address  |
 |   4   |   Player1 nonce   |
-|   64  |    Player1 sig    |
+|   65  |    Player1 sig    |
 |   4   |   Player2 nonce   |
-|   64  |    Player2 sig    |
+|   65  |    Player2 sig    |

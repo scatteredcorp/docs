@@ -1,6 +1,8 @@
 # Network
 
-## Message header
+## Message
+
+Below is the minimal structure for a network message:
 
 | Bytes |       Value       |
 | :---: |  :-------------:  |

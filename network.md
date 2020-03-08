@@ -8,6 +8,6 @@ Below is the minimal structure for a network message:
 | :---: |  :-------------:  |
 |   1   |  Magic (network)  |
 |   1   |      Command      |
-|   4   |     Total size    |
+|   4   |    Payload size   |
 |   4   |      Checksum     |
 |   ?   |  Message content  |

@@ -8,6 +8,7 @@ This is the structure that represents a placement of multiple marbles.
 | :---: | :-------------: |
 |   1   | Number of types |
 |   1   |   Marble type   |
+|   1   |      Color      |
 |   4   |      Amount     |
 |  ...  |       ...       |
 |   1   |   Marble type   |
